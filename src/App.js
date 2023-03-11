@@ -12,6 +12,8 @@ function App() {
   // useRef gives us access to html element(the input)
   // useEffect saves the input everytime array of todos change
   // always make a copy to modify the state variable
+  
+  
   // todos is the prop we use
   const [todos, setTodos] = useState([])      //object destructing
   const todoNameRef = useRef()
